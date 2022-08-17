@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-image: url(./winter.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color:rgb(0, 0, 0);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: antiquewhite;
+}
+.container > * {
+    margin: 30px;
+    text-align: center;
+}
+
+.minute-num , .seconds-num , .hour-num , .day-num{
+    font-size: 3rem;
+    font-weight:600;
+}
+p{
+    font-size: 1.4rem;
+}
